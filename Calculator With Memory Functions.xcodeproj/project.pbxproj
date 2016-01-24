@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		E496DAFA1C549555002DBFE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E496DAF91C549555002DBFE8 /* AppDelegate.swift */; };
-		E496DAFC1C549555002DBFE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E496DAFB1C549555002DBFE8 /* ViewController.swift */; };
 		E496DAFF1C549555002DBFE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E496DAFD1C549555002DBFE8 /* Main.storyboard */; };
 		E496DB011C549555002DBFE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E496DB001C549555002DBFE8 /* Assets.xcassets */; };
 		E496DB041C549555002DBFE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E496DB021C549555002DBFE8 /* LaunchScreen.storyboard */; };
 		E496DB0F1C549555002DBFE8 /* Calculator_With_Memory_FunctionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E496DB0E1C549555002DBFE8 /* Calculator_With_Memory_FunctionsTests.swift */; };
 		E496DB1A1C549555002DBFE8 /* Calculator_With_Memory_FunctionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E496DB191C549555002DBFE8 /* Calculator_With_Memory_FunctionsUITests.swift */; };
+		E496DB281C5495A4002DBFE8 /* CalcVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E496DB271C5495A4002DBFE8 /* CalcVC.swift */; };
+		E496DB2A1C54B360002DBFE8 /* TaxRateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E496DB291C54B360002DBFE8 /* TaxRateVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,6 @@
 /* Begin PBXFileReference section */
 		E496DAF61C549555002DBFE8 /* Calculator With Memory Functions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calculator With Memory Functions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E496DAF91C549555002DBFE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E496DAFB1C549555002DBFE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E496DAFE1C549555002DBFE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E496DB001C549555002DBFE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E496DB031C549555002DBFE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		E496DB151C549555002DBFE8 /* Calculator With Memory FunctionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Calculator With Memory FunctionsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E496DB191C549555002DBFE8 /* Calculator_With_Memory_FunctionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator_With_Memory_FunctionsUITests.swift; sourceTree = "<group>"; };
 		E496DB1B1C549555002DBFE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E496DB271C5495A4002DBFE8 /* CalcVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalcVC.swift; sourceTree = "<group>"; };
+		E496DB291C54B360002DBFE8 /* TaxRateVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaxRateVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				E496DAF91C549555002DBFE8 /* AppDelegate.swift */,
-				E496DAFB1C549555002DBFE8 /* ViewController.swift */,
 				E496DAFD1C549555002DBFE8 /* Main.storyboard */,
 				E496DB001C549555002DBFE8 /* Assets.xcassets */,
 				E496DB021C549555002DBFE8 /* LaunchScreen.storyboard */,
 				E496DB051C549555002DBFE8 /* Info.plist */,
+				E496DB271C5495A4002DBFE8 /* CalcVC.swift */,
+				E496DB291C54B360002DBFE8 /* TaxRateVC.swift */,
 			);
 			path = "Calculator With Memory Functions";
 			sourceTree = "<group>";
@@ -259,8 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E496DAFC1C549555002DBFE8 /* ViewController.swift in Sources */,
+				E496DB2A1C54B360002DBFE8 /* TaxRateVC.swift in Sources */,
 				E496DAFA1C549555002DBFE8 /* AppDelegate.swift in Sources */,
+				E496DB281C5495A4002DBFE8 /* CalcVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
